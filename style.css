@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+:root{
+    --primary-color:  #0d00fd;
+    --secondary : rgb(11, 25, 34);
+    --accent : rgb(29, 150, 210);
+    --black: #000;
+    --white: #fff;
+}
+*{
+    margin: 10px;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    outline: 2px dotted black;
+    margin:10px;
+}
