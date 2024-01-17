@@ -10,11 +10,12 @@
     margin: 10px;
     padding:0;
     box-sizing: border-box;
-    outline: 3px  dotted black ;
+   
 }
 .container {
      margin:10px;
 }
 header .header {
     height:20vh;
+    outline-style: 3px  dotted black ;
 }
