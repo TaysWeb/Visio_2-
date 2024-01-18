@@ -10,12 +10,22 @@
     margin: 10px;
     padding:0;
     box-sizing: border-box;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container header  {
+    margin:5px;
+    height:20vh;   
+    outline: 2px dotted rgb(55, 69, 176);
+}
+header nav .menu   {
+   border:2px solid black;
+   width:200px ;
+   display:inline-block;
+}
    
-}
-.container {
-     margin:10px;
-}
-header .header {
-    height:20vh;
-    outline-style: 3px  dotted black ;
-}
+/* .menu-icon svg {
+    float: left;
+} */
