@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 :root{
     --primary-color:  #0d00fd;
     --secondary : rgb(11, 25, 34);
@@ -15,17 +14,46 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+/**********************************  header  ****************************************************/
 .container header  {
     margin:5px;
     height:20vh;   
     outline: 2px dotted rgb(55, 69, 176);
 }
-header nav .menu   {
-   border:2px solid black;
-   width:200px ;
-   display:inline-block;
+header  nav .logo {
+    margin-bottom: 10%;
 }
-   
-/* .menu-icon svg {
-    float: left;
-} */
+header nav .menu   {
+   width:200px ; 
+}
+header .menu{
+    float:right ;
+}   
+header .menu .menu-icon {
+     display:inline-block;
+     margin: 60px 50px 0 40px;
+}     
+header .menu .menu-icon svg {
+   margin-inline:inherit;
+}  
+
+
+/********************************** End of  header  **************************************************/
+
+
+/**********************************  banner Section  ****************************************************/
+
+.content img {
+    width: 80%;
+    margin: 0 5rem  ;
+}  
+
+
+
+
+
+
+
+
+/**********************************  End of Section  ****************************************************/
