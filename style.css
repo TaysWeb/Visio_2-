@@ -43,10 +43,33 @@ header .menu .menu-icon svg {
 
 
 /**********************************  banner Section  ****************************************************/
+.banner {
+    padding:10px;
+}
+.banner .slide{
+  
+    border:2px solid red;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.banner .slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+     left: 0;
+   
+    z-index: -1;
+  }
+.banner .slide .content{
+    border: 2px dotted coral;
+
+
+  }
 .content img {
-    width: 80%;
-    margin: 0 5rem  ;
+    width: 100%;
+ 
 }  
 
 
