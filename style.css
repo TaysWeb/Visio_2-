@@ -60,12 +60,10 @@ header .menu .menu-icon svg {
     top: 0;
      left: 0;
    
-    z-index: -1;
+    /* z-index: -1; */
   }
 .banner .slide .content{
     border: 2px dotted coral;
-
-
   }
 .content img {
     width: 100%;
