@@ -43,30 +43,43 @@ header .menu .menu-icon svg {
 
 
 /**********************************  banner Section  ****************************************************/
-.banner {
-    padding:10px;
+.banner{
+padding:10px;
+
 }
-.banner .slide{
-    border:2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.banner .slide::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-.banner .slide .content{
-    border: 2px dotted coral;
-    
-  }
-.content img {
-    width: 100%;
-    /* display:none ; */
-}  
+.carousel-wrapper  .slide{
+   width: 900px;
+   height: 600px;
+   position: relative;
+   overflow:hidden;
+   float: left;
+   padding: 3px;
+}
+.carousel-wrapper  .slide img {
+    display:none;
+    width:900px;
+    height:600px;
+}
+.carousel-wrapper  .slide img:active {
+    display:inline-block
+}
+.next 
+.prev{
+    float:left;
+    cursor:pointer;
+    margin-top:130px;
+}
+.prev {
+    position:relative;
+    margin-right:45px;
+    z-index: 100;
+}
+.next {
+    position:relative;
+    margin-right:-45px;
+    z-index: 100;
+}
+
 
 
 /**********************************  End of Section  ****************************************************/
