@@ -47,9 +47,7 @@ header .menu .menu-icon svg {
     padding:10px;
 }
 .banner .slide{
-  
     border:2px solid red;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,23 +56,17 @@ header .menu .menu-icon svg {
     content: '';
     position: absolute;
     top: 0;
-     left: 0;
-   
-    /* z-index: -1; */
+    left: 0;
+    z-index: -1;
   }
 .banner .slide .content{
     border: 2px dotted coral;
+    
   }
 .content img {
     width: 100%;
- 
+    /* display:none ; */
 }  
-
-
-
-
-
-
 
 
 /**********************************  End of Section  ****************************************************/
