@@ -9,10 +9,13 @@
     margin: 10px;
     padding:0;
     box-sizing: border-box;
-
 }
-::-webkit-scrollbar{
-    display: none;
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+:-webkit-scrollbar{
+    display:none;
 }
 
 /**********************************  header  ****************************************************/
@@ -47,38 +50,42 @@ header .menu .menu-icon svg {
 padding:10px;
 
 }
-.carousel-wrapper  .slide{
-   width: 900px;
+.carousel-wrapper{
+    border:2px solid coral;
+   width: 1000px;
    height: 600px;
-   position: relative;
+   position:relative;
    overflow:hidden;
-   float: left;
+   overflow-y: hidden;
    padding: 3px;
 }
-.carousel-wrapper  .slide img {
-    display:none;
-    width:900px;
+.carousel-inner img {
+    margin-top:-2rem;
+    width:1200px ;
     height:600px;
 }
-.carousel-wrapper  .slide img:active {
-    display:inline-block
+.carousel-inner img:active {
+    display:inline-block;
 }
-.next 
-.prev{
+.prev , .next{
     float:left;
     cursor:pointer;
     margin-top:130px;
 }
-.prev {
+.next {
     position:relative;
     margin-right:45px;
     z-index: 100;
+    border:2px solid
 }
-.next {
+.previous {
+   
     position:relative;
     margin-right:-45px;
     z-index: 100;
-}
+    /* border:3px solid yellow; */
+
+}  
 
 
 
