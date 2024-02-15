@@ -6,7 +6,7 @@
     --white: #fff;
 }
 *{
-    margin: 10px;
+    margin: 0;
     padding:0;
     box-sizing: border-box;
 }
@@ -19,15 +19,16 @@ html{
 }
 
 /**********************************  header  ****************************************************/
-.container header  {
+ header  {
     margin:5px;
     height:20vh;   
     outline: 2px dotted rgb(55, 69, 176);
 }
 header  nav .logo {
     margin-bottom: 10%;
-}
-header nav .menu   {
+    border:2px solid coral;
+} 
+ header nav .menu   {
    width:200px ; 
 }
 header .menu{
@@ -46,46 +47,46 @@ header .menu .menu-icon svg {
 
 
 /**********************************  banner Section  ****************************************************/
-.banner{
+/* .banner{
 padding:10px;
 
 }
 .carousel-wrapper{
-    border:2px solid coral;
+    border:2px solid black;
    width: 1200px;
-   height: 700px;
+   height: 600px;
    position:relative;
-   overflow:hidden;
-   overflow-y: hidden;
-   padding: 3px;
+  overflow:hidden; 
+
+   overflow-y: hidden; 
 }
 .carousel-inner img {
-    margin-top:-2rem;
+    margin-top:-10rem;
     width:1200px ;
-    height:700px;
+    height:800px;   
 }
 .carousel-inner img:active {
     display:inline-block;
+   
 }
-.prev , .next{
+.previous  > .next{
     float:left;
     cursor:pointer;
-    margin-top:130px;
+    margin-top:100px;
 }
 .next {
     position:relative;
-    margin-right:45px;
+    margin-right:-60px;
     z-index: 100;
-    border:2px solid
+    float:left;
+    border:2px solid coral ;
 }
 .previous {
-   
     position:relative;
     margin-right:-45px;
     z-index: 100;
-    /* border:3px solid yellow; */
-
-}  
+    border:3px solid yellow;
+}   */
 
 
 
