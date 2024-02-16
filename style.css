@@ -128,7 +128,7 @@ section  {
     padding: 2% 5%;
 }
 .info-sec{
-    /* border:3px solid pink; */
+
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 2em;
@@ -142,14 +142,11 @@ section  {
     line-height:  28px;
 }
 .image{
-    /* border: 2px solid olive; */
    position: relative;
 }
 .image img{
-    /* border: 2px solid red; */
     position: absolute;
     top: -20%;
-    right:-20px;
     max-width:450px;
     max-height:180px;
 }
@@ -208,3 +205,54 @@ section  {
 
 /**********************************  Media Queries   ****************************************************/
 
+
+
+/*------------------------------------------------------- Desktop RESOLUTION 1440PX ------------------------------------------------------*/
+/* @media (min-width: 1200px) and (max-width: 1440px) {
+   .menu svg {
+      position: sticky;
+   }
+} */
+
+/*------------------------------------------------------- Laptop RESOLUTION 1200PX ------------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header{
+        min-width:98%;
+        margin-left: 5%;
+        border:2px dotted blue;
+    }
+    .logo{
+       min-width:300px;
+    }
+    .banner{
+        padding :2%;
+    }
+    .carousel-wrapper{
+        min-width:42%;
+    }
+    .carousel-inner img {
+        margin: 8%;
+        margin-top:-10rem;
+        min-width: 950px ;
+    }
+}
+
+/*------------------------------------------------------- TABLET RESOLUTION 992PX ------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/*------------------------------------------------------- PHONE RESOLUTION 768PX ------------------------------------------------------*/
+
+
+@media (min-width: 400px) and (max-width: 768px) {
+
+}
+
+
+
+
+
+/********************************** End of  Media Queries   ****************************************************/
