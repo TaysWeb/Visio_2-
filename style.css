@@ -33,14 +33,13 @@ html{
     padding: 1rem 5%;  
  
 }
-
  .header nav .menu  {
    width: 200px; 
 }
  .menu{
-    /* float:right ;
-    padding: 50px  0 26px ; */
-    position: relative;
+    /* float:right ; */
+    padding: 50px  0 20px ;
+justify-content: end;
 }
  .menu .menu-icon {
      /* display:inline-block;
@@ -253,7 +252,7 @@ section  {
 
     } */
     .header{
-        border:2px dotted blue;
+     
         max-width:1200px;
         width:100%;
         /* padding: 10%; */
@@ -361,12 +360,11 @@ section  {
  @media (min-width: 540px) and (max-width: 767px) {
    
     .header{
-        border:2px dotted blue;
-        width:100%;
-       
+       justify-content: space-between;
+       max-width: 2000px;
     }
-    .menu{
-        width: 100%;
+    .header .menu{
+        max-width: 2500px;
     }
     .logo{
         max-width: 230px;
@@ -374,9 +372,13 @@ section  {
     }
     .header nav .menu  {
         min-width:180px ; 
+        margin-right: -70%;
+     }
+     .menu {
+        margin-right: -600px;
      }
      .carousel-wrapper{
-        padding: 3rem 3%; 
+        padding: 1em 2%; 
      }
      .carousel-inner img   {
         min-width:1000px;
@@ -420,20 +422,29 @@ section  {
 
 @media (min-width: 260px) and (max-width: 540px) {
 
-      
     .header{
-        border:2px dotted blue;
-        max-width :100%;
-        
-
+        /* border:2px dotted blue; */
+        max-width: 5000px ;
+        margin-right: 200px;
     }
     .logo{
-        max-width: 230px;
+        max-width: 180px;
         margin-left: 32px;
     }
+    
     .header nav .menu  {
         min-width:180px ; 
-
+        /* margin-left: -250px; */
+     }
+     .menu {
+       
+        margin-right: -1000px;
+     }
+    
+     .carousel-inner img {
+    
+        max-width: 1050px;
+        /* height: 800px; */
      }
   
      section  {
