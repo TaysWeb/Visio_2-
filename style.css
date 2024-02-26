@@ -48,7 +48,7 @@ padding:10px;
 }
 .carousel-wrapper{
    width: 1300px;
-   height: 600px;
+   height: 550px;
     margin: 0 auto;
    position:relative;
   overflow:hidden; 
@@ -59,7 +59,7 @@ padding:10px;
     text-align:center;
     margin-top:-10rem;
     width:88%;
-    height:1000px; 
+    height:900px; 
     /* display: none;   */
 }
 .carousel-inner img:active {
@@ -161,14 +161,16 @@ section  {
 /**********************************  Start of Blocks Section  ****************************************************/
 .main-blocks{
     /* border:2px dotted  black ; */
-   margin-left: 5%;
+  
    display: grid ;
-   grid-template-columns: repeat(3, 3fr);
-   margin: 8px 10px 0  ;
-   gap:1em;
+   grid-template-columns: repeat(3, 1.5fr);
+   margin: 8px 5px  10px ;
+   min-width: 1000px;
+   /* gap:1em; */
 }
 .blue-blocks{
     height: 150px ;
+    width: 365px;
     background-color: #02101f;
 }
 .blue-blocks a img  {
@@ -193,7 +195,7 @@ section  {
 }
 .small-blue {
   /* border:2px solid coral; */
-   min-width: 185px;
+   min-width: 145px;
    height:28px;
   position: relative;
   background: #244ac2;
