@@ -14,7 +14,7 @@ $(document).ready(function () {
       showSlide(currentSlide + offset);
   }
 
-  $('.arrow ').on('click', function () {
+  $('.arrow').on('click', function () {
       changeSlide(1);
   });
 
