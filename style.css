@@ -65,6 +65,9 @@ padding:10px;
 .carousel-inner img:active {
     display:inline-block;
 }
+.slide{
+    flex: 0 0 100%;
+}
 .previous  > .next{
     float:left;
     cursor:pointer;
