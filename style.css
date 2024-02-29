@@ -48,7 +48,7 @@ padding:10px;
 }
 .carousel-wrapper{
    width: 1300px;
-   height: 550px;
+   height: 500px;
     margin: 0 auto;
    position:relative;
   overflow:hidden; 
@@ -58,8 +58,8 @@ padding:10px;
 .carousel-inner img {
     text-align:center;
     margin-top:-10rem;
-    width:88%;
-    height:900px; 
+    width:90%;
+    height:850px; 
     /* display: none;   */
 }
 .carousel-inner img:active {
@@ -138,23 +138,26 @@ section  {
     padding: 2% 5%;
 }
 .info-sec{
-
+   /* border: 2px solid brown ; */
     display: grid;
-    grid-template-columns: 1.5fr 1.1fr;
+    grid-template-columns: 1.6fr 1.1fr;
     gap: 4em;
     margin-left: 3%;
 }
 .text{
+    /* border: 2px solid black ; */
     padding:5px 5px 5px;
+    margin-left:-15px;
 }
 .text p{
     font-size: 17px;
-    line-height:  28px;
+    line-height:  30px;
 }
 .icons{
+    /* border: 2px solid  coral ; */
    margin-left: -3px;
 }
-.icons a {
+.icons a img  {
     margin-left:2px;
 }
 
@@ -163,17 +166,18 @@ section  {
 
 /**********************************  Start of Blocks Section  ****************************************************/
 .main-blocks{
-    /* border:2px dotted  black ; */
-  
+    /* border:3px solid green; */
    display: grid ;
    grid-template-columns: repeat(3, 1.5fr);
-   margin: 8px 5px  10px ;
-   min-width: 1000px;
-   /* gap:1em; */
+   margin: 10px 5px  10px ;
+   min-width: 999px;
+   gap:1em;
 }
 .blue-blocks{
+    /* border:5px dotted  yellow ; */
     height: 150px ;
-    width: 365px;
+    width: 360px;
+    margin-left: 10px ;
     background-color: #02101f;
 }
 .blue-blocks a img  {
@@ -191,7 +195,7 @@ section  {
     /* border:2px solid black; */
     display:grid;
     grid-template-columns: 10.5rem 10.5rem;
-    gap: 2em;
+    gap: 1.5em;
     /* min-width:120px; */
     padding: 2% 0 18%;
     
@@ -234,39 +238,34 @@ section  {
 
 /*------------------------------------------------------- Laptop RESOLUTION 1200PX ------------------------------------------------------*/
 
-@media (min-width: 768px) and (max-width: 1200px) {
-    /* body{
-        max-width: 1000px;
-        margin:  auto ;
-
-    } */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body{
+        width: 1000px;
+         overflow-x: hidden;
+    }
     .header{
-     
-        max-width:1200px;
-        width:100%;
-        /* padding: 10%; */
+        /* border:2px solid black; */
+        max-width: 999px;
+        display: flex;
+        margin-top: -1%;
     }
-    .logo{
-        max-width: 250px;
-        margin-left: 32px;
-    }
-    .header nav .menu  {
-        width:180px ; 
-     }
-     .carousel-wrapper  {
+    .carousel-wrapper  {
         max-width:950px;
-        max-height:600px ;
-        /* padding: 10px 0 10px  ; */
+        max-height:550px ;
+        padding: 10px 0 10px  ;
         /* display: none; */
      }
+     
      .carousel-inner img {
+        margin-top:-5rem;
         max-width:920px;
          margin:20px 0 25px  ;
      }
      .blue-block {
        max-width:290px;
        max-height:55px;
-       left: 15px;
+       left: 10px;
+    
      }
      .blue-block h6{
         font-size: 11px;
@@ -277,53 +276,55 @@ section  {
         height:60px;
         left:700px;      
     }
-    /* .next{
-        top:30%;
-    }   */
+    .next{
+        max-width: 120px;
+        right: 20px;
+    }  
     section  {
         padding: 2% 6%;
     } 
     .info-sec{
-        /* border:2px solid brown; */
+    
         display: flex ;
         justify-content: space-between;
         flex-flow: row ;
-        max-width: 1100px;
+        max-width: 1000px;
         gap:2em;
-        margin: 20px 5px 0  5px ;
+        margin: 20px 4px 0 ;
     }
     .text{
-      /* border:2px solid black; */
-      min-width: 470px;
+       
+      max-width: 510px;
+      margin-left: 5px;
     }
     .text p {
-      font-size: 15px;
-       line-height:  22px;
+      font-size: 16px;
+       line-height:  26px;
       }
 
     .icons{
-     /* border:2px solid black; */
-     min-width: 410px;
+     
+     min-width: 370px;
+     margin-left: 10px;
       }
       
     .icons img  {
-        /* border:2px dotted coral ; */
-        max-width: 46px; 
+        /* border: 1px solid brown ; */
+        max-width: 40px; 
     }
     .main-blocks{
-    /* border:2px solid brown; */
+    border:2px solid brown;
    display: flex;
    justify-content: space-between;
    flex-flow : row ;
-   max-width: 1000px;
-   /* height: 40vh; */
+   max-width: 950px;
    gap:1em;
-     margin: 0 auto ;  
+   height: 40vh;
     }
     .blue-blocks{
-        /* border:2px solid blue ; */
-        min-width: 295px !important;
-        /* margin: 10px; */
+        border:2px solid lightcoral ;
+        max-width: 275px !important;
+        margin-left: -10px;
     }
     .blue-blocks h3{
         font-size: 22px;
@@ -332,11 +333,10 @@ section  {
         /* border:2px dotted orange ;  */
         display: flex;
         justify-content: space-between;   
-        max-width: 400px;
-        gap:8px;      
+        max-width: 300px;
     }
     .small-blue {
-        min-width:145px;
+        min-width:130px;
         margin-top:10%;
     }
     .small-blue p{
@@ -346,14 +346,11 @@ section  {
 
 /*------------------------------------------------------- TABLET RESOLUTION 992PX ------------------------------------------------------*/
 
- @media (min-width: 540px) and (max-width: 767px) {
+ @media (min-width: 768px) and (max-width: 992px) {
    
-    .header{
-       justify-content: space-between;
-       max-width: 2000px;
-    }
-    .header .menu{
-        max-width: 2500px;
+ 
+    body {
+        margin: 0 auto ;
     }
     .logo{
         max-width: 230px;
@@ -365,7 +362,7 @@ section  {
      }
      .menu {
         margin-right: -600px;
-     }
+     } *
      .carousel-wrapper{
         padding: 1em 2%; 
      }
@@ -377,23 +374,22 @@ section  {
         padding: 1% 5%;
     } 
     .info-sec{
-/* 
-        border:2px solid brown; */
-        min-width: 1350px;
-         padding: 5% 0  ; 
-        margin : 0 auto ; 
+        border:2px solid brown; 
+        min-width: 1000px;
+         /* padding: 5% 0  ; 
+        margin : 0 auto ;  */
     }
     .text {
+        border:2px solid yellow;
         min-width: 450px;
-        /* border:2px solid coral; */
         padding: 5%   ; 
     }
     .text p {
-        font-size: 17px;
+        font-size: 16px;
     }
     .icons {
         min-width: 300px;
-        /* border:2px solid coral; */
+        border:2px solid coral;
     }
     .icons img {
         max-width:44px;
@@ -409,7 +405,7 @@ section  {
 /*------------------------------------------------------- PHONE RESOLUTION 768PX ------------------------------------------------------*/
 
 
-@media (min-width: 260px) and (max-width: 540px) {
+@media (min-width: 400px) and (max-width: 768px) {
 
     .header{
         /* border:2px dotted blue; */
@@ -506,5 +502,8 @@ section  {
     }
 
 }
+@media (min-width: 290px) and (max-width: 400px) {
+}
+
 
 /********************************** End of  Media Queries   ****************************************************/
