@@ -58,8 +58,8 @@ padding:10px;
 .carousel-inner img {
     text-align:center;
     margin-top:-10rem;
-    width:90%;
-    height:850px; 
+    width:95%;
+    height:900px; 
     /* display: none;   */
 }
 .carousel-inner img:active {
@@ -86,7 +86,7 @@ padding:10px;
     position: absolute;
     text-transform: capitalize;
     top:380px;
- 
+    left: 100px;
     z-index: 2;
 }
 .blue-block h6 {
@@ -104,7 +104,7 @@ padding:10px;
     background-color: var(--black);
     position: absolute;
     top: 350px;
-    left:1050px;
+    left:1150px;
     z-index: -2;    
 }
 .circles{
@@ -137,27 +137,27 @@ section  {
     margin: 0 auto;
     padding: 2% 5%;
 }
-.info-sec{
+.info-sec{  
    /* border: 2px solid brown ; */
     display: grid;
-    grid-template-columns: 1.6fr 1.1fr;
-    gap: 4em;
-    margin-left: 3%;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 2em;
+    max-width: 1300px ;
+    margin-right: 10%;
 }
-.text{
-    /* border: 2px solid black ; */
-    padding:5px 5px 5px;
-    margin-left:-15px;
-}
+/* .text{
+    border: 2px solid black ;
+} */
 .text p{
-    font-size: 17px;
-    line-height:  30px;
+    font-size: 18px;
+    line-height:  32px;
 }
-.icons{
-    /* border: 2px solid  coral ; */
+/* .icons{
+    border: 2px solid  coral ;
    margin-left: -3px;
-}
+} */
 .icons a img  {
+    /* border:1px solid black; */
     margin-left:2px;
 }
 
@@ -166,17 +166,19 @@ section  {
 
 /**********************************  Start of Blocks Section  ****************************************************/
 .main-blocks{
-    /* border:3px solid green; */
+    border:3px solid green;
    display: grid ;
    grid-template-columns: repeat(3, 1.5fr);
    margin: 10px 5px  10px ;
-   min-width: 999px;
+   /* max-width: 999px; */
+   max-width: 1300px ;
    gap:1em;
+   margin-left:5%;
 }
 .blue-blocks{
     /* border:5px dotted  yellow ; */
     height: 150px ;
-    width: 360px;
+    /* width: 360px; */
     margin-left: 10px ;
     background-color: #02101f;
 }
