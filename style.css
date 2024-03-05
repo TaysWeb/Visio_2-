@@ -166,17 +166,17 @@ section  {
 
 /**********************************  Start of Blocks Section  ****************************************************/
 .main-blocks{
-    border:3px solid green;
+    /* border:1px solid green; */
    display: grid ;
-   grid-template-columns: repeat(3, 1.5fr);
-   margin: 10px 5px  10px ;
+   grid-template-columns: repeat(3, 2.5fr);
+   margin: 10px 3px 10px ;
    /* max-width: 999px; */
    max-width: 1300px ;
-   gap:1em;
-   margin-left:5%;
+   gap:3.5em;
+   margin-left:3%;
 }
 .blue-blocks{
-    /* border:5px dotted  yellow ; */
+    /* border:2px dotted  yellow ; */
     height: 150px ;
     /* width: 360px; */
     margin-left: 10px ;
@@ -230,11 +230,7 @@ section  {
 
 
 /*------------------------------------------------------- Desktop RESOLUTION 1440PX ------------------------------------------------------*/
-/* @media (min-width: 1200px) and (max-width: 1440px) {
-
-  
-  
-   
+/* @media (min-width: 1200px) and (max-width: 1440px) { 
 
 } */
 
@@ -243,25 +239,25 @@ section  {
 @media (min-width: 992px) and (max-width: 1200px) {
     body{
         width: 1000px;
-         overflow-x: hidden;
+        margin: 0 auto ;
+        overflow-x: hidden;
     }
     .header{
-        /* border:2px solid black; */
         max-width: 999px;
         display: flex;
-        margin-top: -1%;
+        /* margin-top: -1%; */
     }
     .carousel-wrapper  {
         max-width:950px;
         max-height:550px ;
-        padding: 10px 0 10px  ;
+        /* padding: 10px 0 10px  ; */
         /* display: none; */
      }
      
      .carousel-inner img {
-        margin-top:-5rem;
+        /* margin-top:-5rem; */
         max-width:920px;
-         margin:20px 0 25px  ;
+        margin:20px 0 25px ;
      }
      .blue-block {
        max-width:290px;
@@ -276,7 +272,7 @@ section  {
     }
     .black-block  {
         height:60px;
-        left:700px;      
+        left:820px;      
     }
     .next{
         max-width: 120px;
@@ -286,18 +282,18 @@ section  {
         padding: 2% 6%;
     } 
     .info-sec{
-    
+        /* border:1px solid black; */
         display: flex ;
         justify-content: space-between;
         flex-flow: row ;
-        max-width: 1000px;
-        gap:2em;
-        margin: 20px 4px 0 ;
+        max-width: 999px;
+        gap:1.4em;
+        margin: 10px 4px 20px ;
     }
     .text{
-       
-      max-width: 510px;
-      margin-left: 5px;
+       /* border: 1px solid coral; */
+      min-width: 550px;
+      margin-left: -30px ;
     }
     .text p {
       font-size: 16px;
@@ -305,10 +301,10 @@ section  {
       }
 
     .icons{
-     
-     min-width: 370px;
-     margin-left: 10px;
-      }
+     /* border: 1px solid green; */
+     min-width: 325px;
+     margin-left: 15px; 
+    }
       
     .icons img  {
         /* border: 1px solid brown ; */
@@ -316,12 +312,12 @@ section  {
     }
     .main-blocks{
     border:2px solid brown;
-   display: flex;
-   justify-content: space-between;
-   flex-flow : row ;
-   max-width: 950px;
-   gap:1em;
-   height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    flex-flow : row ;
+    max-width: 999px;
+    gap:1em;
+    height: 40vh;
     }
     .blue-blocks{
         border:2px solid lightcoral ;
